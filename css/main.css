@@ -1,0 +1,160 @@
+@import url("https://fonts.googleapis.com/css2?family=Kalam&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poiret+One&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap");
+* {
+  font-size: 13px;
+}
+
+#home, #about-me, #my-skills, #projects,
+#main-row1, #main-row2, #main-row3, #main-row4 {
+  height: 100vh;
+}
+
+#tagNames {
+  font-family: "Kalam", cursive;
+  font-size: 30px;
+  color: purple;
+}
+
+nav {
+  background-color: white;
+  padding: 0px;
+}
+
+nav ul {
+  text-decoration: none;
+  list-style: none;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+nav ul li {
+  font-family: "Kalam", cursive;
+  font-size: 22px;
+  color: black;
+}
+
+nav ul li > a {
+  text-decoration: none;
+  color: purple;
+  font-family: "Kalam", cursive;
+  font-size: 22px;
+  position: relative;
+}
+nav ul li > a::after {
+  content: "";
+  width: 0;
+  height: 3px;
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+  transform: translateX(-50%);
+  background: linear-gradient(90deg, #89eaff, #b492ff);
+  transition: width 0.3s;
+}
+nav ul li > a:hover::after {
+  width: 100%;
+}
+nav ul li > a:hover {
+  color: #b492ff;
+}
+
+#name {
+  display: block;
+  margin: auto;
+  text-align: center;
+}
+
+#download-cv, #lets-talk, #close-modal {
+  text-decoration: none;
+  padding: 10px;
+  color: white;
+  background-color: #b492ff;
+  border-radius: 5px;
+}
+#download-cv:hover, #lets-talk:hover, #close-modal:hover {
+  background: linear-gradient(90deg, #89eaff, #b492ff);
+  transition: 0.5s;
+}
+
+#row-btn-cv-talk {
+  margin-top: 25px;
+}
+
+#my-download {
+  text-align: start;
+  margin-left: 0px;
+  padding-left: 3px;
+}
+
+#talk-to-me {
+  text-align: end;
+  margin-right: 0px;
+  padding-right: 3px;
+}
+
+.modal-header {
+  background-color: #b492ff;
+  text-align: left;
+}
+
+#chat {
+  width: 40px;
+  height: 40px;
+}
+
+#talk-icons {
+  width: 20px;
+  height: 20px;
+}
+
+#animation-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+#animation {
+  border-left: 1px solid purple;
+}
+
+#my-name, #my-title {
+  font-family: "Kalam", cursive;
+  font-size: 48px;
+  font-weight: bold;
+}
+
+#my-title {
+  font-size: 15px;
+}
+
+.card {
+  width: 100%;
+}
+.card:hover {
+  transition: 0.5s;
+  box-shadow: 8px 8px lightgray;
+}
+
+#card-header-desktop {
+  background-color: #b492ff;
+}
+
+#card-header-mobile {
+  background-color: #ff92bb;
+}
+
+#card-header-web {
+  background-color: #89eaff;
+}
+
+#footer {
+  height: 60vh;
+}
+
+#skills-img {
+  max-height: 15vh;
+}
