@@ -12,16 +12,38 @@
     height: 100vh;
 }
 
+// #about-me-main-container {
+//     content:' ';
+//     opacity: 0.6;
+//     background-image: url("../images/background.png");
+//     background-size:  auto;
+//     background-repeat: no-repeat;
+    
+//     // background-color: #ff92bb;
+// }
+
 #tagNames {
     font-family: 'Kalam', cursive;
     font-size: 30px;
     color: purple;
 }
 
+#navigation {
+    background-color: white;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
+
+#to-download{
+    margin-bottom: 15px;
+    margin-left: 20px;
+}
+
+
 nav {
     // background-color: #495057;
     background-color:white;
-    // background-color: transparent;
     padding: 0px;
 }
 
@@ -30,7 +52,7 @@ nav ul {
     list-style: none;
     padding: 30px;
     display:  flex;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
 }
 
@@ -73,7 +95,7 @@ nav ul li > a {
     text-align: center;
 }
 
-#download-cv, #lets-talk, #close-modal {
+#download-cv, #lets-talk, #close-modal, #to-download {
     text-decoration: none;
     padding: 10px;
     color: white;
@@ -171,14 +193,6 @@ nav ul li > a {
     background-color: 	#89eaff;
 }
 
-#footer {
-    // height: 6vh;
-    height: 60vh;
-    // display: flex;
-    // justify-content: center;
-    // align-items: center;
-    
-}
 
 #skills-img{
     max-height: 15vh;

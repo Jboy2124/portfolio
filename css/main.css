@@ -16,6 +16,18 @@
   color: purple;
 }
 
+#navigation {
+  background-color: white;
+  display: flex;
+  justify-content: end;
+  align-items: center;
+}
+
+#to-download {
+  margin-bottom: 15px;
+  margin-left: 20px;
+}
+
 nav {
   background-color: white;
   padding: 0px;
@@ -26,7 +38,7 @@ nav ul {
   list-style: none;
   padding: 30px;
   display: flex;
-  justify-content: center;
+  justify-content: start;
   align-items: center;
 }
 
@@ -67,14 +79,14 @@ nav ul li > a:hover {
   text-align: center;
 }
 
-#download-cv, #lets-talk, #close-modal {
+#download-cv, #lets-talk, #close-modal, #to-download {
   text-decoration: none;
   padding: 10px;
   color: white;
   background-color: #b492ff;
   border-radius: 5px;
 }
-#download-cv:hover, #lets-talk:hover, #close-modal:hover {
+#download-cv:hover, #lets-talk:hover, #close-modal:hover, #to-download:hover {
   background: linear-gradient(90deg, #89eaff, #b492ff);
   transition: 0.5s;
 }
@@ -149,10 +161,6 @@ nav ul li > a:hover {
 
 #card-header-web {
   background-color: #89eaff;
-}
-
-#footer {
-  height: 60vh;
 }
 
 #skills-img {
