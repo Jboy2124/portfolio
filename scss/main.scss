@@ -7,20 +7,11 @@
 }
 
 
-#home, #about-me, #my-skills, #projects, 
-#main-row1, #main-row2, #main-row3, #main-row4 {
+#home, #about-me, #my-skills, #projects, #contact-me,
+#main-row1, #main-row2, #main-row3, #main-row4, #main-row5 {
     height: 100vh;
 }
 
-// #about-me-main-container {
-//     content:' ';
-//     opacity: 0.6;
-//     background-image: url("../images/background.png");
-//     background-size:  auto;
-//     background-repeat: no-repeat;
-    
-//     // background-color: #ff92bb;
-// }
 
 #tagNames {
     font-family: 'Kalam', cursive;
@@ -95,7 +86,11 @@ nav ul li > a {
     text-align: center;
 }
 
-#download-cv, #lets-talk, #close-modal, #to-download {
+#download-cv, 
+#lets-talk,
+ #close-modal, 
+ #to-download,
+ #send-message, #btn {
     text-decoration: none;
     padding: 10px;
     color: white;
@@ -108,7 +103,7 @@ nav ul li > a {
 }
 
 #row-btn-cv-talk {
-    margin-top: 25px;
+    margin-top: 35px;
 }
 
 #my-download {
@@ -118,9 +113,7 @@ nav ul li > a {
 }
 
 #talk-to-me {
-    text-align: end;
-    margin-right: 0px;
-    padding-right: 3px;
+    text-align: center;
 }
 
 .modal-header {
@@ -131,10 +124,6 @@ nav ul li > a {
 #chat {
     width: 40px;
     height: 40px;
-}
-#talk-icons {
-    width: 20px;
-    height: 20px;
 }
 
 #animation-container {
@@ -149,8 +138,8 @@ nav ul li > a {
 }
 
 #my-name {
-    font-family: 'Kalam', cursive;
-    font-size: 48px;
+    // font-family: 'Kalam', cursive;
+    font-size: 40px;
     font-weight: bold;
 }
 
@@ -158,18 +147,6 @@ nav ul li > a {
     @extend #my-name;
     font-size: 15px;
 }
-
-// #about-me-main-container {
-//     background:	#f1fdf9;
-// }
-
-// #projects-main-container {
-//     background: #f6f2f2;
-// }
-
-// #skills-main-container {
-//     background: #f1fdf9;
-// }
 
 
 .card {
@@ -196,4 +173,20 @@ nav ul li > a {
 
 #skills-img{
     max-height: 15vh;
+}
+
+.input {
+    padding-left: 10px;
+    width: 100%;
+}
+textarea {
+    resize: none;
+}
+
+#btn {
+    margin: 5px 5px 5px 8px;
+    padding: 10px;
+    width: 130px;
+    text-align: center;
+    cursor: pointer;
 }
