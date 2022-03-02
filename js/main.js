@@ -1,3 +1,14 @@
+// let clickProject = Array.from(document.getElementsByClassName("card"));
+// let array = ["home", "about-me","projects","my-skills"];
+
+// clickProject.map((e) => {
+//     e.addEventListener("", (element) => {
+//         alert(element.target.value);
+//     });
+// });
+
+
+
 // let tasks = [
 //     {
 //         title: "Programming Languages",

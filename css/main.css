@@ -17,7 +17,7 @@
 }
 
 #navigation {
-  background-color: white;
+  background-color: transparent;
   display: flex;
   justify-content: end;
   align-items: center;
@@ -28,8 +28,12 @@
   margin-left: 20px;
 }
 
+#nav-container {
+  background-color: transparent;
+}
+
 nav {
-  background-color: white;
+  background-color: transparent;
   padding: 0px;
 }
 
@@ -134,6 +138,15 @@ nav ul li > a:hover {
   border-left: 1px solid purple;
 }
 
+#about-me-main-container, #skills-main-container {
+  background-color: #dacef5;
+  transform: skew(0deg, -8deg);
+}
+
+#about-me, #my-skills {
+  transform: skew(0deg, 8deg);
+}
+
 #my-name, #my-title {
   font-size: 40px;
   font-weight: bold;
@@ -145,10 +158,11 @@ nav ul li > a:hover {
 
 .card {
   width: 100%;
+  box-shadow: 8px 8px 10px 2px #c8b5f5;
 }
 .card:hover {
   transition: 0.5s;
-  box-shadow: 8px 8px lightgray;
+  transform: scale(1.05);
 }
 
 #card-header-desktop {
@@ -182,4 +196,8 @@ textarea {
   width: 130px;
   text-align: center;
   cursor: pointer;
+}
+
+#contact-animated {
+  height: 350px;
 }

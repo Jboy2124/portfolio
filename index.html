@@ -14,18 +14,20 @@
 </head>
 <body>  
     <div class="container-fluid p-0">
-
-        <div id="navigation" class="container p-0 sticky-top">
-            <nav>
-                <ul>
-                    <li>let knowMe = [ "<a name="navBtn" role="button" href="#home">My Name</a>",</li>
-                    <li>"<a name="navBtn" role="button" href="#about-me">About Me</a>",</li>
-                    <li>"<a name="navBtn" role="button" href="#projects">Projects</a>",</li>
-                    <li>"<a name="navBtn" role="button" href="#my-skills">My Skills</a>" ]; </li>
-                </ul>
-            </nav>
-                <a id="to-download" href="./attachments/ResumeJBAbecia.doc.pdf" download="JBA-Resume">Download CV</a>
+        <div id="nav-container" class="container-fluid  p-0 sticky-top">
+            <div id="navigation" class="container">
+                <nav>
+                    <ul>
+                        <li>let knowMe = [ "<a name="navBtn" role="button" href="#home">My Name</a>",</li>
+                        <li>"<a name="navBtn" role="button" href="#about-me">About Me</a>",</li>
+                        <li>"<a name="navBtn" role="button" href="#projects">Projects</a>",</li>
+                        <li>"<a name="navBtn" role="button" href="#my-skills">My Skills</a>" ]; </li>
+                    </ul>
+                </nav>
+                    <a id="to-download" href="./attachments/ResumeJBAbecia.doc.pdf" download="JBA-Resume">Download CV</a>
+            </div>
         </div>
+       
             
             
           
@@ -365,7 +367,7 @@
                                         <h5 class="card-title">Others</h5>
                                         <p class="card-text">
                                             <ul>
-                                                <li>Signar R</li>
+                                                <li>Signal R</li>
                                                 <li>Mobile Network SDK</li>
                                                 <li>SAP Crystal Report</li>
                                                 <li>Syncfusion</li>
@@ -399,12 +401,11 @@
         
         <div id="contact-me" class="container">
             <div id="main-row5" class="row d-sm-flex align-content-center">
-                <h1 id="tagNames">const connect_with_me = ( ) => {</h1>
-                    <div class="col-sm-6">
-                        <ul>
-                            <li>Mobile#: </li>
-                            <li>Email Address: </li>
-                        </ul>
+                <h1 id="tagNames" class="py-5">const connect_with_me = ( ) => {</h1>
+                    <div  class="col-sm-6 d-sm-flex align-items-center justify-content-center">
+                       <div>
+                           <img id="contact-animated" src="./images/contact-me.gif" alt="">
+                       </div>
                     </div>
                     <div class="col-sm-6">
                         <form action="">
